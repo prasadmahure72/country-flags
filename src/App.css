@@ -1,0 +1,32 @@
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 20px;
+  justify-content: center;
+  background-color: #2d2d2d;
+  min-height: 100vh;
+}
+
+.flag-card {
+  background: white;
+  border-radius: 8px;
+  padding: 12px;
+  width: 150px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.flag-card img {
+  width: 120px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.flag-card p {
+  margin: 8px 0 0;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
