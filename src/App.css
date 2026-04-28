@@ -1,31 +1,14 @@
-.app {
-  text-align: center;
-  background-color: #2d2d2d;
-  min-height: 100vh;
-}
-
-/* Search Bar */
-.searchBar {
-  margin: 20px;
-  padding: 10px 15px;
-  width: 300px;
-  font-size: 16px;
-  border-radius: 6px;
-  border: none;
-  outline: none;
-}
-
-/* Grid Layout */
 .grid-container {
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
   padding: 20px;
   justify-content: center;
+  background-color: #2d2d2d;
+  min-height: 100vh;
 }
 
-/* Country Card */
-.countryCard {
+.flag-card {
   background: white;
   border-radius: 8px;
   padding: 12px;
@@ -34,14 +17,14 @@
   box-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
 
-.countryCard img {
+.flag-card img {
   width: 120px;
   height: 80px;
   object-fit: cover;
   border-radius: 4px;
 }
 
-.countryCard p {
+.flag-card p {
   margin: 8px 0 0;
   font-size: 14px;
   font-weight: bold;
